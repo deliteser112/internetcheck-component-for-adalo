@@ -1,0 +1,21 @@
+{
+  "displayName": "internetcheck",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "default": "Alexander Ryndin"
+    },
+    {
+      "name": "color",
+      "displayName": "Color",
+      "type": "color",
+      "default": "#00A898"
+    }
+  ]
+}

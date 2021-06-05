@@ -1,0 +1,33 @@
+{
+  "name": "internet-check0100100019",
+  "description": "this app can check your internet status",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Alexander Ryndin",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "internet check by alexander",
+    "components": [
+      {
+        "name": "Internetcheck",
+        "manifest": "./src/components/Internetcheck/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "0.0.42",
+    "react": "^16.14.0",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.14.0",
+    "react-native-web": "^0.9.13"
+  },
+  "dependencies": {
+    "@react-native-community/netinfo": "^6.0.0"
+  }
+}
